@@ -308,3 +308,11 @@
 
 
 }());
+
+function mailing() {
+	var name = document.getElementById("from_name").value;
+	var email = document.getElementById("from_email").value;
+	var subject = document.getElementById("from_subject").value;
+	var msg = document.getElementById("from_message").value;
+	window.open('mailto:ramanbuttar13@gmail.com?subject='+subject+'&body='+msg);
+}
