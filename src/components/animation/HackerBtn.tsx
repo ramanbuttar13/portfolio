@@ -35,7 +35,7 @@ const HackerBtn = ({ label }: { label: string }) => {
   return (
     <Button size={'lg'} className='text-base px-5 py-6'       onMouseEnter={startScrambling}
     >   <Download className="mx-1" />
-        <a href="../../../public/RamanButtar_SWE.pdf" download="proposed_file_name">{displayText}</a>
+        <a href="../../../RamanButtar_SWE.pdf" download="proposed_file_name">{displayText}</a>
     </Button>
   );
 };
